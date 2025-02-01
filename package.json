@@ -1,16 +1,15 @@
 {
-<<<<<<< HEAD
-  "name": "frontend",
+  "name": "career-cave",
   "homepage": "https://svij007.github.io/CareerCave/",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "version": "1.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "start": "vite preview"
+    "start": "node server.js",
+    "backend-dev": "node server.js"
   },
   "dependencies": {
     "axios": "^1.6.5",
@@ -18,30 +17,7 @@
     "react-dom": "^18.2.0",
     "react-hot-toast": "^2.4.1",
     "react-icons": "^4.12.0",
-    "react-router-dom": "^6.21.1"
-  },
-  "devDependencies": {
-    "@types/react": "^18.2.43",
-    "@types/react-dom": "^18.2.17",
-    "@vitejs/plugin-react-swc": "^3.5.0",
-    "eslint": "^8.55.0",
-    "eslint-plugin-react": "^7.33.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.5",
-    "vite": "^5.0.8"
-=======
-  "name": "backend",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
+    "react-router-dom": "^6.21.1",
     "bcryptjs": "^2.4.3",
     "cloudinary": "^1.41.3",
     "cookie-parser": "^1.4.6",
@@ -54,7 +30,15 @@
     "validator": "^13.11.0"
   },
   "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "vite": "^5.0.8",
     "nodemon": "^3.1.7"
->>>>>>> 95a5a1412d60e6d1a744dc25fbf54b80ce618d07
   }
 }
+
